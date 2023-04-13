@@ -1,0 +1,10 @@
+-- ORDER BY permet de trier les lignes dans un résultat d'une requête SQL
+SELECT first_name,last_name FROM customer
+ORDER BY first_name;
+-- Ici on  a trier first_name dans un ordre Ascendant
+SELECT first_name,last_name FROM customer
+ORDER BY first_name DESC;
+-- Ici on a triers last_name dans une ordres descendants
+SELECT first_name,last_name FROM customer
+ORDER BY first_name ASC, last_name DESC;
+-- Ici nous avons triers first_name dans un ordre Ascendnat et last_name dans un ordre descendant
