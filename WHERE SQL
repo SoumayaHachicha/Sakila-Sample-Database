@@ -1,0 +1,18 @@
+-- Session : WHERE - Si on souhaite avoir que des ligne spécifiques et permet de spécifier des lignes à retourner
+SELECT * FROM customer WHERE address_id=7;
+-- Ici nous avons sélectionner toute les lignes ou la colonne addres_id est égal à 7
+SELECT * FROM customer WHERE first_name='MARY';
+-- Ici nous avons sélectionner toute les lignes ou la colonne first_name est égal à MARY
+SELECT * FROM payment WHERE amount=7.99;
+-- Ici nous avons sélectionner toutes les lignes ou la colonne amount est égal à 7.99
+SELECT * FROM payment WHERE amount<4.99;
+-- Ici nous avons sélectionner toutes les lignes ou la colonne amount est inférieur strictement a 4.99
+SELECT * FROM payment WHERE amount<=4.99;
+-- Ici nous avons sélectionner toutes les lignes ou la colonne amount est inférieur ou égal à 4.99
+SELECT * FROM payment WHERE amount>=4.99;
+-- Ici nous avons sélectionner toutes les lignes ou la colonne amount est supérieur ou égal à 4.99
+SELECT * FROM payment WHERE amount!=4.99;
+-- Ici nous avons sélectionner toutes les lignes ou la colonne amount est différent de 4.99
+SELECT * FROM payment WHERE amount!=4.99 AND amount>=2.99;
+-- Ici nous avons sélectionner toutes les lignes ou la colonne amount est différente de 4.99 et supérieur ou égal à 2.99
+SELECT * FROM payment WHERE amount=7.99 OR amount=5.99;
