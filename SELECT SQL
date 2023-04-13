@@ -1,0 +1,5 @@
+-- Session : SELECT
+SELECT * FROM film;
+-- Ici nous avons sélectionner tout les fichiers dans la table film
+SELECT title,release_year FROM film;
+-- ici nous avons sélectionner les colonnes title et release_year
