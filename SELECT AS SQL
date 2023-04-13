@@ -1,0 +1,8 @@
+SELECT first_name AS 'Prenom Client',last_name AS 'Nom Client' FROM customer;
+-- Ici nous avons changer temporairement les noms de first_name et last_name
+SELECT * FROM customer;
+SELECT email AS 'Adresse mail' FROM customer;
+-- Ici nous avons changer temporairement le nom de colonne mail en tant qu'adresse mail
+SELECT * FROM customer;
+SELECT store_id AS 'id_store' FROM customer;
+-- Ici nous avons changer temporairement le nom de colonne store_id en id_store
