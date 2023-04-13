@@ -1,0 +1,7 @@
+-- COUNT est une fonction qui nous permet de retourner le nombre de lignes dans une table qui répondent aux conditions de la requêtes
+SELECT COUNT(*) AS 'Nombre de lignes' FROM payment;
+SELECT * FROM payment;
+SELECT COUNT(DISTINCT amount) FROM payment;
+-- Ici nous avons le nombre de ligne sans doublons de la colonne amount
+SELECT COUNT(amount) FROM payment;
+-- Ici nous avons le nombre de ligne de la colonne amount
