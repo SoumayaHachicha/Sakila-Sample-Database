@@ -1,0 +1,4 @@
+-- LIMIT est à utiliser dans une requête SQL pour spécifier le nombre maximum de résultats que l'on souhaite obtenir
+SELECT * FROM payment
+LIMIT 3;
+-- Ici nous avons limiter les lignes à 3
