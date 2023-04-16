@@ -1,0 +1,13 @@
+-- Ici on retourne tout les prenoms de la colonne last_name qui finissent par un A et tout les prenoms de la colonne first_name qui finisse par un A aussi
+SELECT first_name FROM customer
+WHERE first_name LIKE 'B%A';
+-- Ici on retourne tout les prénoms de la colonne first_name  qui commence par un B et qui setermine par un A  
+SELECT first_name FROM customer
+WHERE first_name LIKE 'BAR%A';
+-- Ici on retourne les prénoms qui commence par BAR et se finit par A 
+SELECT first_name FROM customer
+WHERE first_name LIKE '_A%';
+-- Ici on retourne tout les prénoms qui on pour deuxième lettre 	A
+SELECT first_name FROM customer
+WHERE first_name LIKE '__B%';
+-- Ici on retourne tout les prénoms qui on pour troisième lettre B
